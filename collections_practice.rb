@@ -23,6 +23,7 @@ def kesha_maker(array)
     new_array = element.split
     new_array[2] = "$"
     new_array.join
+    new_array
   end
 end
 
