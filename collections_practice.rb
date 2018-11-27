@@ -33,7 +33,10 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.to_i
+  sum = 0
+  array.each do |element|
+    sum += element.to_i
+  end
 end
 
 def add_s(array)
