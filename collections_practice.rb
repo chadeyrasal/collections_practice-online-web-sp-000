@@ -32,6 +32,7 @@ def find_a(array)
     if element.start_with?("a")
       new_array << element
     end
+    new_array
   end
 end
 
