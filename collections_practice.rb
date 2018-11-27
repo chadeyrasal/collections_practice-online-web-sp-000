@@ -36,4 +36,9 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.collect do |element|
+    word_array = element.split(//)
+    word_array << "$"
+    element = word_array.join
+  end
 end
