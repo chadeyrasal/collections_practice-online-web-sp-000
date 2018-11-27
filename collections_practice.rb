@@ -41,6 +41,8 @@ def add_s(array)
       word_array = element.split(//)
       word_array << "s"
       element = word_array.join
+    else
+      element
     end
   end
 end
