@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
   array.collect do |element|
-    word_array = element.split
+    word_array = element.split(", ")
   end
 end
 
