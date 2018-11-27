@@ -11,8 +11,21 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  
 end
 
 def reverse_array(array)
   array.reverse
+end
+
+def kesha_maker(array)
+end
+
+def find_a(array)
+end
+
+def sum_array(array)
+end
+
+def add_s(array)
 end
