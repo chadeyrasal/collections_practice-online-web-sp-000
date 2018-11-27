@@ -36,9 +36,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |element|
-    word_array = element.split(//)
-    word_array << "s"
-    element = word_array.join
+  array.each_with_index.collect do |element, index|
+    if index != 1
+      word_array = element.split(//)
+      word_array << "s"
+      element = word_array.join
+    end
   end
 end
