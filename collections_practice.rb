@@ -38,7 +38,7 @@ end
 def add_s(array)
   array.collect do |element|
     word_array = element.split(//)
-    word_array << "$"
+    word_array << "s"
     element = word_array.join
   end
 end
